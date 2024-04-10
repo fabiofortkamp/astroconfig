@@ -42,6 +42,12 @@ return {
     mappings = {
       -- first key is the mode
       n = {
+        -- tmux config
+        ["<C-h>"] = { "<cmd> TmuxNavigateLeft<CR>", desc = "window left" },
+        ["<C-l>"] = { "<cmd> TmuxNavigateRight<CR>", desc = "window right" },
+        ["<C-j>"] = { "<cmd> TmuxNavigateDown<CR>", desc = "window down" },
+        ["<C-k>"] = { "<cmd> TmuxNavigateUp<CR>", desc = "window up" },
+        -- second key is the lefthand side of the map
         -- second key is the lefthand side of the map
 
         -- navigate buffer tabs with `H` and `L`
