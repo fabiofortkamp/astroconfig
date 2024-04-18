@@ -24,3 +24,7 @@ git clone https://github.com/fabiofortkamp/astroconfig ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Local configuration
+Configuration you put under `lua/local.lua` is loaded, but this file is not under version control. Use this file to
+add *local* configuration, or sensitive config that you do not want to share publicly.

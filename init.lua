@@ -17,3 +17,6 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- local configuration
+pcall(require, "local")
