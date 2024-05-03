@@ -42,6 +42,7 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.clojure" },
+  { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { -- further customize the options set by the community
