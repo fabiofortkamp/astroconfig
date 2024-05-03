@@ -32,7 +32,6 @@ return {
     },
   },
   { import = "astrocommunity.pack.julia" },
-  { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.json" },
