@@ -10,6 +10,8 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.colorscheme.rose-pine" },
   {
     "folke/tokyonight.nvim",
     opts = {
