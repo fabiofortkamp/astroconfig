@@ -12,7 +12,7 @@ return {
     event = "BufRead",
     config = function() require("lsp_signature").setup() end,
   },
-
+ "micangl/cmp-vimtex",
   -- == Examples of Overriding Plugins ==
 
   -- customize alpha options
