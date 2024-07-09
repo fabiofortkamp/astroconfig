@@ -16,7 +16,6 @@ return {
       -- null_ls.builtins.formatting.prettier,
       -- null_ls.builtins.formatting.ruff,
       null_ls.builtins.formatting.isort,
-      null_ls.builtins.diagnostics.mypy,
     }
     return config -- return final config table
   end,

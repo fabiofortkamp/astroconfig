@@ -45,7 +45,7 @@ Upon first start, this will download all packages specified in the configuration
 ## Features
 
 ### Python tools
-We use [ruff](https://docs.astral.sh/ruff/) and [mypy](https://mypy.readthedocs.io/en/stable/index.html) as the main development tools.
+We use [ruff](https://docs.astral.sh/ruff/) and [basedpyright](https://github.com/DetachHead/basedpyright) as the main development tools.
 Open a Python file and you should get diagnostics right away.
 ### Local configuration
 Configuration you put under `lua/local.lua` is loaded, but this file is not under version control. Use this file to
