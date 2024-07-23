@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Mason plugins
 
 ---@type LazySpec
@@ -18,6 +16,7 @@ return {
         "texlab",
         "marksman",
         "ruff",
+        "fortls"
         -- add more arguments for adding more language servers
       })
     end,
@@ -32,6 +31,7 @@ return {
         "prettier",
         "stylua",
         "isort",
+        "fprettify",
         -- add more arguments for adding more null-ls sources
       })
     end,

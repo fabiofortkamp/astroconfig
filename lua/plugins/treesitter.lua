@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Treesitter
 
 ---@type LazySpec
@@ -17,6 +15,7 @@ return {
       "json",
       "awk",
       "bash",
+      "fortran"
       -- add more arguments for adding more treesitter parsers
     })
   end,
