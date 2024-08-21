@@ -109,7 +109,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.treesj" },
   { import = "astrocommunity.editing-support.refactoring-nvim" },
-  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.color.tint-nvim" },
   { "levouh/tint.nvim", opts = {
