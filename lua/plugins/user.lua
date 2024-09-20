@@ -55,6 +55,15 @@ return {
         -- must be specified in the next line
         paths = { "./lua/snippets" },
       }
+      require("luasnip.loaders.from_lua").lazy_load { paths = {"./LuaSnip/"} }
+
+      luasnip.config.set_config({
+        -- Enable autotriggered snippets
+        enable_autosnippets = true,
+
+        -- Use Tab to trigger visual selection
+        store_selection_key = "<Tab>",
+      })
     end,
   },
 
