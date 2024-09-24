@@ -31,18 +31,20 @@ vim.opt.listchars = {
 vim.opt.list = true
 
 -- LaTeX filetypes
-local cmp = require('cmp')
+local cmp = require "cmp"
 cmp.setup {
   -- global configuration goes here
   sources = {
-    { name = 'buffer' },
+    { name = "buffer" },
     -- other sources (GLOBAL)
   },
 }
 cmp.setup.filetype("tex", {
   sources = {
-    { name = 'vimtex' },
-    { name = 'buffer' },
+    { name = "vimtex" },
+    { name = "buffer" },
     -- other sources
   },
 })
+-- Disable quickfix window on LaTeX warnings
+vim.g.vimtex_quickfix_open_on_warning = 0
