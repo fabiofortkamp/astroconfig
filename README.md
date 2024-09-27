@@ -37,7 +37,6 @@ nvim
 Upon first start, this will download all packages specified in the configuration.
 #### Post-installation configuration
 
-- Authenticate Github Copilot with `:Copilot auth`.
 - Run `:checkhealth` inside neovim to check for problems, in particular the presence of executables you need to add to your system
   - My accompanying [dotfiles](https://github.com/fabiofortkamp/dotfiles) configuration include all external programs needed
 

@@ -45,7 +45,6 @@ return {
   { import = "astrocommunity.pack.clojure" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
