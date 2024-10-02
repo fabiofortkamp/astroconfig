@@ -29,3 +29,22 @@ vim.opt.listchars = {
   nbsp = "␣",
 }
 vim.opt.list = true
+
+-- LaTeX filetypes
+local cmp = require "cmp"
+cmp.setup {
+  -- global configuration goes here
+  sources = {
+    { name = "buffer" },
+    -- other sources (GLOBAL)
+  },
+}
+cmp.setup.filetype("tex", {
+  sources = {
+    { name = "vimtex" },
+    { name = "buffer" },
+    -- other sources
+  },
+})
+-- Disable quickfix window on LaTeX warnings
+vim.g.vimtex_quickfix_open_on_warning = 0
