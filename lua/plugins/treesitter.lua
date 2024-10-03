@@ -15,6 +15,7 @@ return {
       "json",
       "awk",
       "bash",
+      "fortran"
       -- add more arguments for adding more treesitter parsers
     })
   end,

@@ -16,6 +16,7 @@ return {
         "texlab",
         "marksman",
         "ruff",
+        "fortls"
         -- add more arguments for adding more language servers
       })
     end,
@@ -30,6 +31,7 @@ return {
         "prettier",
         "stylua",
         "isort",
+        "fprettify",
         -- add more arguments for adding more null-ls sources
       })
     end,
